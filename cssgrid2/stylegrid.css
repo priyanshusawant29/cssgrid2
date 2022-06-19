@@ -1,0 +1,19 @@
+*{ margin: 0%; padding: 0%;}
+
+main{
+    width: 90%;
+    margin: 50px auto;
+    border: 1px solid black;
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.div1{ background: violet;}
+.div2{ background: indigo;}
+.div3{ background: blue;}
+.div4{ background: green;}
+.div5{ background: orange;}
+.div6{ background: red;}
